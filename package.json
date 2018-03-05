@@ -1,0 +1,10 @@
+{
+  "name": "data",
+  "version": "1.0.0",
+  "description": "[SBP] basic data handling",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.5"
+  }
+}
