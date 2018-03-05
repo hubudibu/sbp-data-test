@@ -11,7 +11,7 @@ const _store = {}
 
 module.exports = {
   '/get': function (path) {
-    // version 1.1.0!
+    // version 1.2.0!
     return _.get(_store, path, [])
   },
   '/set': function (path, data) {
