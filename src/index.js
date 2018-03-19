@@ -4,8 +4,8 @@
 // Domain: Data persistence
 // =======================
 
-// import _ from 'lodash'
-const _ = require('lodash')
+import _ from 'lodash'
+// const _ = require('lodash')
 
 const _store = {}
 

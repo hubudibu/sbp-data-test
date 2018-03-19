@@ -1,10 +1,32 @@
 {
   "name": "data",
-  "version": "1.2.0",
+  "version": "2.0.0",
   "description": "[SBP] basic data handling",
-  "main": "index.js",
+  "main": "./dist/index.js",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:hubudibu/sbp-data-test.git"
+  },
+  "scripts": {
+    "build": "babel src --out-dir dist",
+    "test": "mocha --require babel-register"
+  },
   "dependencies": {
-    "lodash": "^4.17.5"
+    "lodash": "4.17.5"
+  },
+  "devDependencies": {
+    "babel-cli": "6.26.0",
+    "babel-preset-env": "1.6.1",
+    "babel-register": "6.26.0",
+    "mocha": "5.0.4",
+    "should": "13.2.1",
+    "should-sinon": "0.0.6",
+    "sinon": "4.4.6"
+  },
+  "babel": {
+    "presets": [
+      "env"
+    ]
   }
 }
